@@ -14,9 +14,12 @@ import numpy
 # -----------------------------------------------
 
 def step(num):
-    pass
+   if num > 0:
+        print(1)
+   else:
+       print(-1) 
 
-
+step(-4)
 # -----------------------------------------------
 
 
@@ -29,7 +32,16 @@ def step(num):
 
 # Your code here:
 # -----------------------------------------------
-def ReLu
+
+def ReLu(arr, cutoff=0):
+    result = []
+    for value in arr:
+        if value < cutoff:
+            result.append(cutoff)
+        else:
+            result.append(value)
+    return result
+
 
 
 # -----------------------------------------------
