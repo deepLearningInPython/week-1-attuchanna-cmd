@@ -19,7 +19,7 @@ def step(num):
    else:
        print(-1) 
 
-step(-4)
+
 # -----------------------------------------------
 
 
@@ -40,7 +40,7 @@ def ReLu(arr, cutoff=0):
             result.append(cutoff)
         else:
             result.append(value)
-    return result
+    return (result)
 
 
 
@@ -57,7 +57,9 @@ def ReLu(arr, cutoff=0):
 # Your code here:
 # -----------------------------------------------
 
-def neural_net_layer
+def neural_net_layer(matrix, vector):
+    product = numpy.dot(matrix, vector)
+    return ReLu(product)
 
 
 # ------------------------------------------
