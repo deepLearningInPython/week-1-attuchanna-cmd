@@ -1,8 +1,8 @@
 import numpy
 
-# dhdfhfcfFollow the tasks below to practice basic Python concepts.
+#Follow the tasks below to practice basic Python concepts.
 # Write your code in between the dashed lines.
-# Don't import additional packages. Numpy suffices.
+# Don't iport additional packages. Numpy suffices.
 
 # Task 1: 
 # Instructions:
@@ -13,7 +13,8 @@ import numpy
 # Your code here:
 # -----------------------------------------------
 
-def step
+def step(num):
+    pass
 
 
 # -----------------------------------------------
